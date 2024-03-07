@@ -369,12 +369,16 @@ body {
 }  
 
 @media screen and (max-width: 830px) {
-  .booking{
-    height:50vh;
+  /* .booking{
+    height:60vh;
   }
 
   .background-beach-image{
     height:60vh;
+  } */
+
+  .search-flights-button{
+    margin-top:80px;
   }
 
   .destination,
@@ -420,6 +424,11 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+
+  .search-flights-button{
+    margin-top:30px;
+  }
+
   .booking {
       height:80vh;
   }
@@ -510,7 +519,7 @@ body {
   .search-flights-button{
     width: 500px;
     height:100px;
-    font-size:60px
+    font-size:60px;
   }
 
   #logo{
