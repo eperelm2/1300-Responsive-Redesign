@@ -457,6 +457,11 @@ body {
       align-items: center;
       margin-left:5%
   }
+
+  .warning-message{
+    font-size: 28px;
+
+  }
 }  
 
 @media screen and (max-width: 1070px) {
