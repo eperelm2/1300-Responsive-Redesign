@@ -476,9 +476,95 @@ body {
   }
 }  
 
-@media screen and (min-width: 2750px){
+@media screen and (min-width: 2200px) and (max-width:2644px) {
   .booking{
     height:48vh;
+  }
+
+  .booking-header{
+    font-size:80px;
+  }
+
+  .background-beach-image{
+    height:55vh;
+  }
+
+  .type-selection-text{
+    font-size: 60px;
+  }
+
+  .type-selection-circle{
+    width: 40px;
+    height: 40px;
+  }
+
+  .destination-text, .time-text, .traveler-text{
+    font-size:55px;
+  }
+
+  .destination-box, .time-box, .traveler-box{
+    height:100px;
+    font-size:60px;
+  }
+
+  .search-flights-button{
+    width: 500px;
+    height:100px;
+    font-size:60px
+  }
+
+  #logo{
+    width:280px;
+    height:12vh;
+  }
+
+  .topnav a{
+    font-size: 90px;
+  }
+
+  #signin {
+    width:90px;
+    height: 90px;
+  }
+  
+  #dove{
+    font-size:50px;
+  }
+
+  .warning-header{
+    font-size:75px;
+  }
+
+  .warning-message{
+    font-size:60px;
+  }
+
+  .bottom-navbar-text{
+    font-size:80px;
+  }
+
+  .searchbar-box{
+    height:100px;
+    width: 500px;
+    font-size: 70px;
+  }
+
+  .search-text{
+    font-size:100px;
+  }
+
+  .contact-text{
+    font-size:80px;
+  }
+
+  .icons{
+    font-size:80px;
+  }
+}
+
+@media screen and (min-width: 2645px){
+  .booking{
+    height:50vh;
   }
 
   .booking-header{
